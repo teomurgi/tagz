@@ -19,8 +19,8 @@ and family members
 ## Intall
 
 ```bash
-npm install mosca pino -g
-mosca -v | pino
+npm install tagz -g
+tagz --help
 ```
 
 ## Usage
