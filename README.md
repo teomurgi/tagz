@@ -25,7 +25,7 @@ mosca -v | pino
 
 ## Usage
 
-Here it is the help message
+Here it is the main help message
 
 ```bash
 Usage: tagz <cmd> [opts]
@@ -42,6 +42,46 @@ Usage: tagz <cmd> [opts]
     list|ls [options] [path]         List files in directory
     add|a [options] <file> <tag>     Add tag to specified file
     delete|d [options] <file> <tag>  Remove tag to specified file
+```
+
+### List tags
+```bash
+Usage: list|ls [options] [path]
+
+  Lists files in directory
+
+
+  Options:
+
+    -a, --all  Print complete details
+    -h, --help  output usage information
+```
+
+
+### Add tag
+```bash
+Usage: add|a [options] <file> <tag>
+
+  Adds tag to specified file
+
+
+  Options:
+
+    -r, --recursive  Apply to all the files of the current directory and of all the subdirectories
+    -h, --help       output usage information
+```
+
+### Remove tag
+```bash
+  Usage: delete|d [options] <file> <tag>
+
+  Removes tag to specified file
+
+
+  Options:
+
+    -r, --recursive  Apply to all the files of the current directory and of all the subdirectories
+    -h, --help       output usage information
 ```
 
 ## LICENSE - "MIT License"
