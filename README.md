@@ -16,6 +16,34 @@ and family members
 * When you back up a folder, the __tagz file gets backed up as well
 * Works with your cloud provider sync app of choice so that your colleagues immediately get the updated tags
 
+## Intall
+
+```bash
+npm install mosca pino -g
+mosca -v | pino
+```
+
+## Usage
+
+Here it is the help message
+
+```bash
+Usage: tagz <cmd> [opts]
+
+
+  Options:
+
+    -V, --version  output the version number
+    -h, --help     output usage information
+
+
+  Commands:
+
+    list|ls [options] [path]         List files in directory
+    add|a [options] <file> <tag>     Add tag to specified file
+    delete|d [options] <file> <tag>  Remove tag to specified file
+```
+
 ## LICENSE - "MIT License"
 
 Copyright (c) 2018 Matteo Murgida
