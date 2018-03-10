@@ -1,0 +1,22 @@
+{
+  "name": "tagz",
+  "version": "0.5.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tagz": "./bin/tagz"
+  },
+  "author": "Matteo Murgida",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cli-table2": "^0.2.0",
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4",
+    "pino": "^4.7.1",
+    "sqlite3": "^3.1.9"
+  }
+}
