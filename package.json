@@ -1,7 +1,7 @@
 {
   "name": "tagz",
   "version": "0.5.0",
-  "description": "",
+  "description": "Tagz is a terminal client for managing files tagging. It is conceived to be cross-platform and cross-\"cloud provider\" to easily share tags with your colleagues and family members.",
   "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "tagz": "./bin/tagz"
   },
   "author": "Matteo Murgida",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
     "cli-table2": "^0.2.0",
