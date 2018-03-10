@@ -14,13 +14,6 @@ and family members
 * When you back up a folder, the __tagz file gets backed up as well
 * Works with your cloud provider sync app of choice so that your colleagues immediately get the updated tags
 
-## Quickstart
-
-```bash
-npm install tagz -g
-tagz --help
-```
-
 ## LICENSE - "MIT License"
 
 Copyright (c) 2018 Matteo Murgida
