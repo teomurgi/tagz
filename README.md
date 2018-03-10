@@ -3,11 +3,11 @@ Tagz
 
 ## About
 
-![tagz](https://github.com/teomurgi/tagz/blob/master/clip.gif?raw=true)
-
 #### Tagz is a terminal client for managing files tagging
 It is conceived to be cross-platform and cross-"cloud provider" to easily share tags with your colleagues
 and family members
+
+![tagz](https://github.com/teomurgi/tagz/blob/master/clip.gif?raw=true)
 
 ## Features
 
